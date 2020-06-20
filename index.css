@@ -1,0 +1,20 @@
+body{
+    background-color: blue;
+}
+.navbar{
+    background-color: greenyellow;
+}
+.backgroundimage{
+    background-image: url("assets/portfoliopic.jpg");
+    /* transform: rotate(270deg); */
+    background-repeat: no-repeat;
+    margin-left: center;
+    margin-right: center;
+    height:  2000px;
+    width: 3300px;
+    
+}
+
+
+
+
