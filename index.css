@@ -1,20 +1,64 @@
 body{
-    background-color: blue;
-}
-.navbar{
-    background-color: greenyellow;
-}
-.backgroundimage{
-    background-image: url("assets/portfoliopic.jpg");
-    /* transform: rotate(270deg); */
-    background-repeat: no-repeat;
-    margin-left: center;
-    margin-right: center;
-    height:  2000px;
-    width: 3300px;
+    background: url('https://images.unsplash.com/photo-1577498767215-1afe1739465a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+     background-size: cover;
+    
     
 }
+#fs-frm{
+    background-color: blue;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(blue, purple)
+    
+}
+    
+
+img{
+    background-image: flex;
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 750px;
+  
+    
+}
+.jumbotron{
+    background-color: none;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    /* display: inline-block; */
+    margin: 0 0.5rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+
+    
+}
+.animate__animatedanimate__bounce{
+    margin: 0 0.5rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a du
+
+}
+
+h1{
+    text-align: center;
+   background-color: aqua;
+}
 
 
+.about{
+    /* background-color: goldenrod; */
+    text-align: center;
+    color: white;
+    font-size: 25pt;
+}
 
+footer{
+    text-align: center;
+    color: white;
+}
+.contactform{
+    width: 100%;
+}
 

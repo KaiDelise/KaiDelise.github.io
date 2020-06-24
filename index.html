@@ -5,39 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <title>Kaira Graham Portfolio</title>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+   
 </head>
 
 <body>
-  <h1>Welcome</h1>
-  <h2>Kaira Graham</h2>
-  <h3>Web Development Student at Eleven Fifty Academy</h3>
-  
-  <style>
-    <div class = "body2">
-      background-image: url("assets/portfoliopic.jpg");
-  </style>
+  <div class="navbar">
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: royalblue;
+        opacity: .50;
+      }
     
-</body>
-</html>
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111;
+      }
+      
+      </style>
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
+      </head>
+      <body>
+       
+        <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#news">Projects</a></li>
+          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#fs-frm">Let's Connect</a></li>
+        </ul>
+      </div>
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome</h1>
+        <p class="lead">Allow me to introduce myself...</p>
+        <hr class="my-4">
+        <p>My name is Kaira Graham</p>
+        <h1 class="animate__animatedanimate__bounce"></h1>
+      
+        
+      </div>
+          <div>
+           <img src = "assets/portfoliopic.jpg"/>
+          </div>
+          <h1>Web Development Student at Eleven Fifty Academy</h1>
+          <div class= "about"
+          <p2 id="aboutme"></p2>
+
+            I am currently a student at Eleven Fifty Academy in the Web Development Cohert. 
+            I am a mother of one and started at Eleven Fifty Academy to start a new career in Tech. 
+            I enjoy being creative in visual arts and performance arts. 
+            I find enjoyment in helping others and taking charge when needed.
+            I enjoy traveling and have been to over 10 states. I love music and listen to it daily. Music is life!
+           After graduation I am hoping to find a job that aids in getting more minorities involved in tech.
+             Thanks for stopping by my page.
+
+          </p2>
+        </div>
+
+          <br>
+          <br>
+          <br>
+          <br> 
+          
+          
+
+          <div class= "contactform">
+          <form name="simple-contact-form" id="fs-frm" action="https://formspree.io/mpzylvad" method="post" accept-charset="utf-8">
+            <fieldset id="fs-frm-inputs">
+              <label for="full-name">Full Name</label>
+              <input name="name" id="full-name" required="" type="text" placeholder="First and Last">
+              <label for="email-address">Email Address</label>
+              <input name="_replyto" id="email-address" required="" type="email" placeholder="email@domain.tld">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" required="" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." rows="5"></textarea>
+              <input name="_subject" id="email-subject" type="hidden" value="Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form>
+          </div>
+          <footer>Created by Kaira Graham 2020 </footer>
+      </body>
+      </html>
