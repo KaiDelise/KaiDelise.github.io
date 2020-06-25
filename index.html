@@ -3,99 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
     <title>Kaira Graham Portfolio</title>
    
 </head>
 
 <body>
   <div class="navbar">
-    <style>
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: royalblue;
-        opacity: .50;
-      }
     
-      li {
-        float: left;
-      }
+     
       
-      li a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-      }
       
-      li a:hover {
-        background-color: #111;
-      }
-      
-      </style>
-      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"> 
-      </head>
-      <body>
        
-        <ul>
+  <ul>
           <li><a class="active" href="#home">Home</a></li>
           <li><a href="#news">Projects</a></li>
           <li><a href="#aboutme">About Me</a></li>
           <li><a href="#fs-frm">Let's Connect</a></li>
-        </ul>
+  </ul>
       </div>
       <div class="jumbotron">
-        <h1 class="display-4">Welcome</h1>
-        <p class="lead">Allow me to introduce myself...</p>
+        <h2 class="display-3">Welcome</h2>
+        <p class="display-5">Allow me to introduce myself...</p>
         <hr class="my-4">
-        <p>My name is Kaira Graham</p>
-        <h1 class="animate__animatedanimate__bounce"></h1>
+        <h1 class="display-2"> My name is Kaira Graham</h1>
+        <!-- <h1 class="animate__animatedanimate__bounce"></h1> -->
       
         
       </div>
-          <div>
-           <img src = "assets/portfoliopic.jpg"/>
+          <div id="aboutme" class="row">
+           <img id="photo" src = "assets/portfoliopic.jpg" class="col-4 px-5"/>
+           <p class="col">
+ 
+             I am currently a student at Eleven Fifty Academy in the Web Development Cohert. 
+             I am a mother of one and started at Eleven Fifty Academy to start a new career in Tech. 
+             I enjoy being creative in visual arts and performance arts. 
+             I find enjoyment in helping others and taking charge when needed.
+             I enjoy traveling and have been to over 10 states. I love music and listen to it daily. Music is life!
+            After graduation I am hoping to find a job that aids in getting more minorities involved in tech.
+              Thanks for stopping by my page.
+ 
+           </p>
           </div>
           <h1>Web Development Student at Eleven Fifty Academy</h1>
-          <div class= "about"
-          <p2 id="aboutme"></p2>
+          
 
-            I am currently a student at Eleven Fifty Academy in the Web Development Cohert. 
-            I am a mother of one and started at Eleven Fifty Academy to start a new career in Tech. 
-            I enjoy being creative in visual arts and performance arts. 
-            I find enjoyment in helping others and taking charge when needed.
-            I enjoy traveling and have been to over 10 states. I love music and listen to it daily. Music is life!
-           After graduation I am hoping to find a job that aids in getting more minorities involved in tech.
-             Thanks for stopping by my page.
-
-          </p2>
+      
+        <div class= "align-middle">
+          <a href="http://kaidelise.github.io/Static-Layout/" target="_blank"><img id="thumbnail"src="assets/staticlayoutthumbnail.png" alt=""></a>
+          <a href="https://codepen.io/KDGraham/pen/NWGJGqO" target="_blank"><img id="thumbnail"src="assets/AgentOrange.png" alt=""></a>
+          <a href="https://ksongsterapi.firebaseapp.com/" target="_blank"><img id="thumbnail"src="assets/API Project.png" alt=""></a>
+          
         </div>
 
-          <br>
-          <br>
-          <br>
-          <br> 
           
           
-
+          
+        
+          
+          
+         
+        
           <div class= "contactform">
-          <form name="simple-contact-form" id="fs-frm" action="https://formspree.io/mpzylvad" method="post" accept-charset="utf-8">
-            <fieldset id="fs-frm-inputs">
-              <label for="full-name">Full Name</label>
-              <input name="name" id="full-name" required="" type="text" placeholder="First and Last">
-              <label for="email-address">Email Address</label>
-              <input name="_replyto" id="email-address" required="" type="email" placeholder="email@domain.tld">
-              <label for="message">Message</label>
-              <textarea name="message" id="message" required="" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." rows="5"></textarea>
-              <input name="_subject" id="email-subject" type="hidden" value="Contact Form Submission">
-            </fieldset>
-            <input type="submit" value="Submit">
-          </form>
-          </div>
-          <footer>Created by Kaira Graham 2020 </footer>
+
+            <form name="simple-contact-form" id="fs-frm" action="https://formspree.io/mpzylvad" method="post" accept-charset="utf-8">
+              <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted"></small>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input name="_replyto" id="email-address" required="" type="email" placeholder="email@domain.tld" class= "form-control">
+                
+              </div>
+              <div class="form-group form-check">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" required="" placeholder="Create Message Here" rows="5"></textarea>
+                <input name="_subject" id="email-subject" type="hidden" value="Contact Form Submission" class= "form-control">
+                
+              </div>
+              <input type="submit" class="btn btn-primary"value="Submit"/>
+              
+            </form>
+        </div>
+        <footer>Created by Kaira Graham 2020 </footer>
       </body>
       </html>

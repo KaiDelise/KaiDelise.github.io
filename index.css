@@ -4,61 +4,132 @@ body{
     
     
 }
-#fs-frm{
-    background-color: blue;
+#fs-frm{ 
+    
+    display: inline-block;
+    width: 400px;
+    padding: 30px;
     text-align: center;
-    width: 100%;
-    background: linear-gradient(blue, purple)
+    
+    
+    
     
 }
+#fs-frm input{
+    /* display: inline-block;
+    text-align: left; */
     
 
-img{
-    background-image: flex;
-    display: block;
-    margin: auto;
-    width: 500px;
+}
+
+label{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    color: seashell;
+    
+}
+
+#photo{
+    /* background-image: flex; */
+    /* display: inline-block; */
+    /* width: 75%; */
     height: 750px;
-  
+    
+
     
 }
 .jumbotron{
-    background-color: none;
+    background-color: #fafafa1f;
     text-align: center;
     font-family: 'Dancing Script', cursive;
-    font-size: xx-large;
+    font-size: 45pt;
     /* display: inline-block; */
+    /* margin: 0 0.5rem;
+    animation: bounce; referring directly to the animation's @keyframe declaration
+    animation-duration: 5s; don't forget to set a duration!
+
+     */
+}
+/* .animate__animatedanimate__bounce{
     margin: 0 0.5rem;
     animation: bounce; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 5s; /* don't forget to set a duration! */
+    /* animation-duration: 5s; don't forget to set a duration
 
-    
-}
-.animate__animatedanimate__bounce{
-    margin: 0 0.5rem;
-    animation: bounce; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 5s; /* don't forget to set a du
-
-}
+} */ 
 
 h1{
-    text-align: center;
-   background-color: aqua;
+    text-align: left;
+    color: seashell;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    
 }
 
 
-.about{
+.aboutme{
     /* background-color: goldenrod; */
-    text-align: center;
+    text-align: left;
     color: white;
     font-size: 25pt;
+    display: flex;
 }
 
 footer{
     text-align: center;
     color: white;
 }
-.contactform{
-    width: 100%;
-}
+.contactform{ 
 
+     /* width: 100%;
+     display: block; */
+     text-align: center;
+     
+ } 
+
+ 
+ 
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   
+ }
+
+ li {
+   float: left;
+ }
+ 
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a:hover {
+   background-color: darkslategray;
+ }
+
+ .navbar{
+    background-color: royalblue;
+    opacity: .35;
+ }
+
+ #thumbnail{
+     width: 200px;
+     /* height: 50px; */
+     
+
+ }
+
+ p{
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 24pt;
+     text-align: center;
+     opacity: .75;
+     color: seashell;
+     padding: 100px;
+ }
